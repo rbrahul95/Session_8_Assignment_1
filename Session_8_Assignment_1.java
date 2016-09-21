@@ -19,10 +19,10 @@ public class Session_8_Assignment_1 {
     name.add("U");
     name.add("L");
    
-    //get an Iterator object for ArrayList using iterator() method.
+    //get an Iterator object for ArrayList 
     Iterator itr = name.iterator();
    
-    //use hasNext() and next() methods of Iterator to iterate through the elements
+    //use hasNext() and next() methods  to iterate elements
     System.out.println("Iterating elements : ");
     while(itr.hasNext())
       System.out.println(itr.next());
